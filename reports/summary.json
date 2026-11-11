@@ -1,0 +1,20 @@
+{
+  "status": "Initial data study and baseline only; boosting experiments not started",
+  "raw_rows": 1030,
+  "duplicates_removed": 25,
+  "clean_rows": 1005,
+  "split_rows": {
+    "test": 195,
+    "train": 623,
+    "validation": 187
+  },
+  "split_groups": {
+    "test": 86,
+    "train": 256,
+    "validation": 86
+  },
+  "rmse_improvement_pct": 33.26057875486087,
+  "test_evaluated": false,
+  "sklearn_version": "1.6.1",
+  "pandas_version": "3.0.2"
+}

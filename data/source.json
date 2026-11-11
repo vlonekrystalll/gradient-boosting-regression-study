@@ -1,0 +1,21 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength",
+  "download": "https://archive.ics.uci.edu/static/public/165/concrete+compressive+strength.zip",
+  "citation": "Yeh, I. (1998). Concrete Compressive Strength. UCI Machine Learning Repository. DOI: 10.24432/C5PK67",
+  "license": "CC BY 4.0",
+  "rows": 1030,
+  "original_xls_sha256": "710076c66b9ca3f8050e7942f3dcbdbe04013534daeb0077ffd3079a52d8e0c4",
+  "csv_sha256": "46be59a7bd99eaebb2f5bc0b24d6ea65eadb10ac69f98476e620513e0c2c6a6d",
+  "changes": "Converted XLS to CSV, renamed columns; row order and numeric values retained.",
+  "column_mapping": {
+    "Cement (component 1)(kg in a m^3 mixture)": "cement",
+    "Blast Furnace Slag (component 2)(kg in a m^3 mixture)": "slag",
+    "Fly Ash (component 3)(kg in a m^3 mixture)": "fly_ash",
+    "Water  (component 4)(kg in a m^3 mixture)": "water",
+    "Superplasticizer (component 5)(kg in a m^3 mixture)": "superplasticizer",
+    "Coarse Aggregate  (component 6)(kg in a m^3 mixture)": "coarse_aggregate",
+    "Fine Aggregate (component 7)(kg in a m^3 mixture)": "fine_aggregate",
+    "Age (day)": "age_days",
+    "Concrete compressive strength(MPa, megapascals) ": "strength_mpa"
+  }
+}
